@@ -1,12 +1,35 @@
 {
-  "name": "ReactNativeImagePlaceholder",
+  "name": "react-native-placeholder-image",
+  "author": "nkshah2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkshah2/react-native-image-with-placeholder"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "image",
+    "placeholder",
+    "default",
+    "defaultsource",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkshah2/react-native-image-with-placeholder/issues"
+  },
+  "main": "src/index.js",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --fix",
+    "flow": "flow"
   },
   "dependencies": {
+    "eslint-config-rallycoding": "^3.2.0",
+    "flow-bin": "^0.67.1",
     "react": "16.3.1",
     "react-native": "0.55.4"
   },
