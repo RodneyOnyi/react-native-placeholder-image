@@ -20,7 +20,7 @@
     "url": "https://github.com/nkshah2/react-native-image-with-placeholder/issues"
   },
   "main": "src/index.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
