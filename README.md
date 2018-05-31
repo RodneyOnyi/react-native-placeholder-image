@@ -1,5 +1,8 @@
 # react-native-placeholder-image
 
+[![npm version](https://badge.fury.io/js/react-native-animated-placeholder-image.svg)](https://badge.fury.io/js/react-native-animated-placeholder-image)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
 This component can be used to show a default placeholder image while loading images from network in React Native. It serves as a way to display default images on both Android and iOS similar to how React Native uses defaultSource for iOS.
 
 <div style="display:flex;flex-direction:row">
