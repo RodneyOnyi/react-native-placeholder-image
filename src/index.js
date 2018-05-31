@@ -12,9 +12,9 @@ import {
 type Props = {
     imageURL: string,
     placeholder: string | number,
-    containerStyle: Object,
     imageStyle: Object,
     isAnimatedReveal: boolean,
+    containerStyle?: Object,
     isBackground?: boolean,
     resizeMode?: string,
     placeholderStyle?: Object,
@@ -82,7 +82,7 @@ class ImageWithPlaceholder extends PureComponent<Props> {
         } = this.props;
         
         return (
-            <View style={ [containerStyle, { flex: 1 }] } >
+            <View style={ [containerStyle || {}, { flex: 1 }] } >
                 <Animated.Image
                     style={ [
                         imageStyle,

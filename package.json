@@ -1,5 +1,5 @@
 {
-  "name": "react-native-placeholder-image",
+  "name": "react-native-animated-placeholder-image",
   "author": "nkshah2",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "url": "https://github.com/nkshah2/react-native-image-with-placeholder/issues"
   },
   "main": "src/index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
