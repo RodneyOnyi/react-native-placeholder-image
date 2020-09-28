@@ -7,6 +7,7 @@ import React, { PureComponent } from 'react';
 import {
     View,
     Animated,
+    ImageBackground
 } from 'react-native';
 
 type Props = {
@@ -83,7 +84,7 @@ class ImageWithPlaceholder extends PureComponent<Props> {
         
         return (
             <View style={ [containerStyle || {}, { flex: 1 }] } >
-                <Animated.Image
+                <ImageBackground
                     style={ [
                         imageStyle,
                         {
@@ -99,8 +100,8 @@ class ImageWithPlaceholder extends PureComponent<Props> {
                     {
                         isBackground && children
                     }
-                </Animated.Image>
-                <Animated.Image
+                </ImageBackground>
+                <ImageBackground
                     style={ [
                         placeholderStyle || imageStyle,
                         {
@@ -118,7 +119,7 @@ class ImageWithPlaceholder extends PureComponent<Props> {
                     {
                         isBackground && children
                     }
-                </Animated.Image>
+                </ImageBackground>
             </View>
         );
     }
